@@ -3,6 +3,6 @@
 #  set(SRC add.cpp main.cpp substract.cpp)
 # aux_source_directory(${PROJECT_SOURCE_DIR} SRC)
 file(GLOB SRC ${CMAKE_CURRENT_SOURCE_DIR}/*.cpp)
- set(EXECUTABLE_OUTPUT_PATH /Users/kyle/leetcode_practice/leetcode_practice/CMake/_bbuild)
+ set(EXECUTABLE_OUTPUT_PATH /Users/kyle/leetcode_practice/leetcode_practice/CMake/_build)
  set(CMAKE_CXX_STANDARD 98)
  add_executable(app ${SRC})
