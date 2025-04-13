@@ -2,6 +2,6 @@
 // #include "head.h"
 
 int add(int a, int b){
-    auto number=8;
+    auto number=888;
     return a+b+number;
 }
