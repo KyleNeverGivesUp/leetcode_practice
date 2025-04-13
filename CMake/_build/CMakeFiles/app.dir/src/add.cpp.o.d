@@ -1,5 +1,5 @@
-CMakeFiles/app.dir/substract.cpp.o: \
-  /Users/kyle/leetcode_practice/leetcode_practice/CMake/substract.cpp \
+CMakeFiles/app.dir/src/add.cpp.o: \
+  /Users/kyle/leetcode_practice/leetcode_practice/CMake/src/add.cpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config_site \
@@ -36,4 +36,5 @@ CMakeFiles/app.dir/substract.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_seek_set.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_ctermid.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_off_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_ssize_t.h
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_ssize_t.h \
+  /Users/kyle/leetcode_practice/leetcode_practice/CMake/include/head.h

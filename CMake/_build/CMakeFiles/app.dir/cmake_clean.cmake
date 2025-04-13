@@ -1,12 +1,12 @@
 file(REMOVE_RECURSE
-  "/Users/kyle/leetcode_practice/leetcode_practice/CMake/_bbuild/app"
-  "/Users/kyle/leetcode_practice/leetcode_practice/CMake/_bbuild/app.pdb"
-  "CMakeFiles/app.dir/add.cpp.o"
-  "CMakeFiles/app.dir/add.cpp.o.d"
-  "CMakeFiles/app.dir/main.cpp.o"
-  "CMakeFiles/app.dir/main.cpp.o.d"
-  "CMakeFiles/app.dir/substract.cpp.o"
-  "CMakeFiles/app.dir/substract.cpp.o.d"
+  "CMakeFiles/app.dir/src/add.cpp.o"
+  "CMakeFiles/app.dir/src/add.cpp.o.d"
+  "CMakeFiles/app.dir/src/main.cpp.o"
+  "CMakeFiles/app.dir/src/main.cpp.o.d"
+  "CMakeFiles/app.dir/src/substract.cpp.o"
+  "CMakeFiles/app.dir/src/substract.cpp.o.d"
+  "app"
+  "app.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

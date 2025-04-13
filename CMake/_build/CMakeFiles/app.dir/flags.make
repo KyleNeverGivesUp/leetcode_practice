@@ -4,9 +4,9 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = 
+CXX_INCLUDES = -I/Users/kyle/leetcode_practice/leetcode_practice/CMake/include
 
-CXX_FLAGSarm64 = -std=gnu++11 -arch arm64
+CXX_FLAGSarm64 = -std=gnu++98 -arch arm64
 
-CXX_FLAGS = -std=gnu++11 -arch arm64
+CXX_FLAGS = -std=gnu++98 -arch arm64
 

@@ -8,9 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/kyle/leetcode_practice/leetcode_practice/CMake/add.cpp" "CMakeFiles/app.dir/add.cpp.o" "gcc" "CMakeFiles/app.dir/add.cpp.o.d"
-  "/Users/kyle/leetcode_practice/leetcode_practice/CMake/main.cpp" "CMakeFiles/app.dir/main.cpp.o" "gcc" "CMakeFiles/app.dir/main.cpp.o.d"
-  "/Users/kyle/leetcode_practice/leetcode_practice/CMake/substract.cpp" "CMakeFiles/app.dir/substract.cpp.o" "gcc" "CMakeFiles/app.dir/substract.cpp.o.d"
+  "/Users/kyle/leetcode_practice/leetcode_practice/CMake/src/add.cpp" "CMakeFiles/app.dir/src/add.cpp.o" "gcc" "CMakeFiles/app.dir/src/add.cpp.o.d"
+  "/Users/kyle/leetcode_practice/leetcode_practice/CMake/src/main.cpp" "CMakeFiles/app.dir/src/main.cpp.o" "gcc" "CMakeFiles/app.dir/src/main.cpp.o.d"
+  "/Users/kyle/leetcode_practice/leetcode_practice/CMake/src/substract.cpp" "CMakeFiles/app.dir/src/substract.cpp.o" "gcc" "CMakeFiles/app.dir/src/substract.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

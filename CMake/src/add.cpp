@@ -1,5 +1,5 @@
-// #include <stdio.h>
-// #include "head.h"
+#include <stdio.h>
+#include "head.h"
 
 int add(int a, int b){
     auto number=888;

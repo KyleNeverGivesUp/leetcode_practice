@@ -129,77 +129,77 @@ app/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/build
 .PHONY : app/fast
 
-add.o: add.cpp.o
-.PHONY : add.o
+src/add.o: src/add.cpp.o
+.PHONY : src/add.o
 
 # target to build an object file
-add.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/add.cpp.o
-.PHONY : add.cpp.o
+src/add.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/src/add.cpp.o
+.PHONY : src/add.cpp.o
 
-add.i: add.cpp.i
-.PHONY : add.i
+src/add.i: src/add.cpp.i
+.PHONY : src/add.i
 
 # target to preprocess a source file
-add.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/add.cpp.i
-.PHONY : add.cpp.i
+src/add.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/src/add.cpp.i
+.PHONY : src/add.cpp.i
 
-add.s: add.cpp.s
-.PHONY : add.s
+src/add.s: src/add.cpp.s
+.PHONY : src/add.s
 
 # target to generate assembly for a file
-add.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/add.cpp.s
-.PHONY : add.cpp.s
+src/add.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/src/add.cpp.s
+.PHONY : src/add.cpp.s
 
-main.o: main.cpp.o
-.PHONY : main.o
+src/main.o: src/main.cpp.o
+.PHONY : src/main.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/main.cpp.o
-.PHONY : main.cpp.o
+src/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/src/main.cpp.o
+.PHONY : src/main.cpp.o
 
-main.i: main.cpp.i
-.PHONY : main.i
+src/main.i: src/main.cpp.i
+.PHONY : src/main.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/main.cpp.i
-.PHONY : main.cpp.i
+src/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/src/main.cpp.i
+.PHONY : src/main.cpp.i
 
-main.s: main.cpp.s
-.PHONY : main.s
+src/main.s: src/main.cpp.s
+.PHONY : src/main.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/main.cpp.s
-.PHONY : main.cpp.s
+src/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/src/main.cpp.s
+.PHONY : src/main.cpp.s
 
-substract.o: substract.cpp.o
-.PHONY : substract.o
+src/substract.o: src/substract.cpp.o
+.PHONY : src/substract.o
 
 # target to build an object file
-substract.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/substract.cpp.o
-.PHONY : substract.cpp.o
+src/substract.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/src/substract.cpp.o
+.PHONY : src/substract.cpp.o
 
-substract.i: substract.cpp.i
-.PHONY : substract.i
+src/substract.i: src/substract.cpp.i
+.PHONY : src/substract.i
 
 # target to preprocess a source file
-substract.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/substract.cpp.i
-.PHONY : substract.cpp.i
+src/substract.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/src/substract.cpp.i
+.PHONY : src/substract.cpp.i
 
-substract.s: substract.cpp.s
-.PHONY : substract.s
+src/substract.s: src/substract.cpp.s
+.PHONY : src/substract.s
 
 # target to generate assembly for a file
-substract.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/substract.cpp.s
-.PHONY : substract.cpp.s
+src/substract.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/src/substract.cpp.s
+.PHONY : src/substract.cpp.s
 
 # Help Target
 help:
@@ -210,15 +210,15 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... app"
-	@echo "... add.o"
-	@echo "... add.i"
-	@echo "... add.s"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
-	@echo "... substract.o"
-	@echo "... substract.i"
-	@echo "... substract.s"
+	@echo "... src/add.o"
+	@echo "... src/add.i"
+	@echo "... src/add.s"
+	@echo "... src/main.o"
+	@echo "... src/main.i"
+	@echo "... src/main.s"
+	@echo "... src/substract.o"
+	@echo "... src/substract.i"
+	@echo "... src/substract.s"
 .PHONY : help
 
 

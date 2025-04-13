@@ -72,67 +72,67 @@ include CMakeFiles/app.dir/flags.make
 CMakeFiles/app.dir/codegen:
 .PHONY : CMakeFiles/app.dir/codegen
 
-CMakeFiles/app.dir/add.cpp.o: CMakeFiles/app.dir/flags.make
-CMakeFiles/app.dir/add.cpp.o: /Users/kyle/leetcode_practice/leetcode_practice/CMake/add.cpp
-CMakeFiles/app.dir/add.cpp.o: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/kyle/leetcode_practice/leetcode_practice/CMake/_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/app.dir/add.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/app.dir/add.cpp.o -MF CMakeFiles/app.dir/add.cpp.o.d -o CMakeFiles/app.dir/add.cpp.o -c /Users/kyle/leetcode_practice/leetcode_practice/CMake/add.cpp
+CMakeFiles/app.dir/src/add.cpp.o: CMakeFiles/app.dir/flags.make
+CMakeFiles/app.dir/src/add.cpp.o: /Users/kyle/leetcode_practice/leetcode_practice/CMake/src/add.cpp
+CMakeFiles/app.dir/src/add.cpp.o: CMakeFiles/app.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/kyle/leetcode_practice/leetcode_practice/CMake/_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/app.dir/src/add.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/app.dir/src/add.cpp.o -MF CMakeFiles/app.dir/src/add.cpp.o.d -o CMakeFiles/app.dir/src/add.cpp.o -c /Users/kyle/leetcode_practice/leetcode_practice/CMake/src/add.cpp
 
-CMakeFiles/app.dir/add.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/app.dir/add.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kyle/leetcode_practice/leetcode_practice/CMake/add.cpp > CMakeFiles/app.dir/add.cpp.i
+CMakeFiles/app.dir/src/add.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/app.dir/src/add.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kyle/leetcode_practice/leetcode_practice/CMake/src/add.cpp > CMakeFiles/app.dir/src/add.cpp.i
 
-CMakeFiles/app.dir/add.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/app.dir/add.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kyle/leetcode_practice/leetcode_practice/CMake/add.cpp -o CMakeFiles/app.dir/add.cpp.s
+CMakeFiles/app.dir/src/add.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/app.dir/src/add.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kyle/leetcode_practice/leetcode_practice/CMake/src/add.cpp -o CMakeFiles/app.dir/src/add.cpp.s
 
-CMakeFiles/app.dir/main.cpp.o: CMakeFiles/app.dir/flags.make
-CMakeFiles/app.dir/main.cpp.o: /Users/kyle/leetcode_practice/leetcode_practice/CMake/main.cpp
-CMakeFiles/app.dir/main.cpp.o: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/kyle/leetcode_practice/leetcode_practice/CMake/_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/app.dir/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/app.dir/main.cpp.o -MF CMakeFiles/app.dir/main.cpp.o.d -o CMakeFiles/app.dir/main.cpp.o -c /Users/kyle/leetcode_practice/leetcode_practice/CMake/main.cpp
+CMakeFiles/app.dir/src/main.cpp.o: CMakeFiles/app.dir/flags.make
+CMakeFiles/app.dir/src/main.cpp.o: /Users/kyle/leetcode_practice/leetcode_practice/CMake/src/main.cpp
+CMakeFiles/app.dir/src/main.cpp.o: CMakeFiles/app.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/kyle/leetcode_practice/leetcode_practice/CMake/_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/app.dir/src/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/app.dir/src/main.cpp.o -MF CMakeFiles/app.dir/src/main.cpp.o.d -o CMakeFiles/app.dir/src/main.cpp.o -c /Users/kyle/leetcode_practice/leetcode_practice/CMake/src/main.cpp
 
-CMakeFiles/app.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/app.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kyle/leetcode_practice/leetcode_practice/CMake/main.cpp > CMakeFiles/app.dir/main.cpp.i
+CMakeFiles/app.dir/src/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/app.dir/src/main.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kyle/leetcode_practice/leetcode_practice/CMake/src/main.cpp > CMakeFiles/app.dir/src/main.cpp.i
 
-CMakeFiles/app.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/app.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kyle/leetcode_practice/leetcode_practice/CMake/main.cpp -o CMakeFiles/app.dir/main.cpp.s
+CMakeFiles/app.dir/src/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/app.dir/src/main.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kyle/leetcode_practice/leetcode_practice/CMake/src/main.cpp -o CMakeFiles/app.dir/src/main.cpp.s
 
-CMakeFiles/app.dir/substract.cpp.o: CMakeFiles/app.dir/flags.make
-CMakeFiles/app.dir/substract.cpp.o: /Users/kyle/leetcode_practice/leetcode_practice/CMake/substract.cpp
-CMakeFiles/app.dir/substract.cpp.o: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/kyle/leetcode_practice/leetcode_practice/CMake/_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/app.dir/substract.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/app.dir/substract.cpp.o -MF CMakeFiles/app.dir/substract.cpp.o.d -o CMakeFiles/app.dir/substract.cpp.o -c /Users/kyle/leetcode_practice/leetcode_practice/CMake/substract.cpp
+CMakeFiles/app.dir/src/substract.cpp.o: CMakeFiles/app.dir/flags.make
+CMakeFiles/app.dir/src/substract.cpp.o: /Users/kyle/leetcode_practice/leetcode_practice/CMake/src/substract.cpp
+CMakeFiles/app.dir/src/substract.cpp.o: CMakeFiles/app.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/kyle/leetcode_practice/leetcode_practice/CMake/_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/app.dir/src/substract.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/app.dir/src/substract.cpp.o -MF CMakeFiles/app.dir/src/substract.cpp.o.d -o CMakeFiles/app.dir/src/substract.cpp.o -c /Users/kyle/leetcode_practice/leetcode_practice/CMake/src/substract.cpp
 
-CMakeFiles/app.dir/substract.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/app.dir/substract.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kyle/leetcode_practice/leetcode_practice/CMake/substract.cpp > CMakeFiles/app.dir/substract.cpp.i
+CMakeFiles/app.dir/src/substract.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/app.dir/src/substract.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kyle/leetcode_practice/leetcode_practice/CMake/src/substract.cpp > CMakeFiles/app.dir/src/substract.cpp.i
 
-CMakeFiles/app.dir/substract.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/app.dir/substract.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kyle/leetcode_practice/leetcode_practice/CMake/substract.cpp -o CMakeFiles/app.dir/substract.cpp.s
+CMakeFiles/app.dir/src/substract.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/app.dir/src/substract.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kyle/leetcode_practice/leetcode_practice/CMake/src/substract.cpp -o CMakeFiles/app.dir/src/substract.cpp.s
 
 # Object files for target app
 app_OBJECTS = \
-"CMakeFiles/app.dir/add.cpp.o" \
-"CMakeFiles/app.dir/main.cpp.o" \
-"CMakeFiles/app.dir/substract.cpp.o"
+"CMakeFiles/app.dir/src/add.cpp.o" \
+"CMakeFiles/app.dir/src/main.cpp.o" \
+"CMakeFiles/app.dir/src/substract.cpp.o"
 
 # External object files for target app
 app_EXTERNAL_OBJECTS =
 
-/Users/kyle/leetcode_practice/leetcode_practice/CMake/_bbuild/app: CMakeFiles/app.dir/add.cpp.o
-/Users/kyle/leetcode_practice/leetcode_practice/CMake/_bbuild/app: CMakeFiles/app.dir/main.cpp.o
-/Users/kyle/leetcode_practice/leetcode_practice/CMake/_bbuild/app: CMakeFiles/app.dir/substract.cpp.o
-/Users/kyle/leetcode_practice/leetcode_practice/CMake/_bbuild/app: CMakeFiles/app.dir/build.make
-/Users/kyle/leetcode_practice/leetcode_practice/CMake/_bbuild/app: CMakeFiles/app.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/kyle/leetcode_practice/leetcode_practice/CMake/_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable /Users/kyle/leetcode_practice/leetcode_practice/CMake/_bbuild/app"
+app: CMakeFiles/app.dir/src/add.cpp.o
+app: CMakeFiles/app.dir/src/main.cpp.o
+app: CMakeFiles/app.dir/src/substract.cpp.o
+app: CMakeFiles/app.dir/build.make
+app: CMakeFiles/app.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/kyle/leetcode_practice/leetcode_practice/CMake/_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable app"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/app.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/app.dir/build: /Users/kyle/leetcode_practice/leetcode_practice/CMake/_bbuild/app
+CMakeFiles/app.dir/build: app
 .PHONY : CMakeFiles/app.dir/build
 
 CMakeFiles/app.dir/clean:
