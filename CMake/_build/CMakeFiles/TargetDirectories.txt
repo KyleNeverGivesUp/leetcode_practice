@@ -1,0 +1,3 @@
+/Users/kyle/leetcode_practice/leetcode_practice/CMake/_build/CMakeFiles/app.dir
+/Users/kyle/leetcode_practice/leetcode_practice/CMake/_build/CMakeFiles/edit_cache.dir
+/Users/kyle/leetcode_practice/leetcode_practice/CMake/_build/CMakeFiles/rebuild_cache.dir
