@@ -82,8 +82,6 @@ int main() {
         // char* a = "ab";
         // std::cout << "a: " << a << std::endl;
 
-        // 函数：通过指针修改值
-
 
     int x = 10;
 
