@@ -7,3 +7,4 @@ file(GLOB SRC ${CMAKE_CURRENT_SOURCE_DIR}/src/*.cpp)
  include_directories(${PROJECT_SOURCE_DIR}/include)
  set(CMAKE_CXX_STANDARD 98)
  add_executable(app ${SRC})
+add_
